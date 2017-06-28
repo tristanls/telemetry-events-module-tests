@@ -1,0 +1,36 @@
+{
+  "name": "telemetry-events-module-tests",
+  "version": "0.0.0",
+  "description": "A bundle of Jest tests for testing modules using telemetry-events.",
+  "scripts": {
+    "assert-latest-node": "(node -v | grep -q ${npm_package_scriptvars_latest_node}) || (echo \"Expected node version ${npm_package_scriptvars_latest_node}, got $(node -v)\" && exit 1)",
+    "inject-examples": "node scripts/injectExamples.js",
+    "readme": "jest"
+  },
+  "scriptvars": {
+    "latest_node": "v8.1.2"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "20.0.4",
+    "telemetry-events-log": "1.0.1",
+    "telemetry-events-quantify": "1.0.0",
+    "telemetry-events-trace": "0.1.0"
+  },
+  "dependencies": {
+    "telemetry-events": "1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/telemetry-events-module-tests.git"
+  },
+  "keywords": [
+    "telemetry",
+    "events",
+    "test"
+  ],
+  "contributors": [
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
+}
