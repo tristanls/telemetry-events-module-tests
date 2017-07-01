@@ -1,6 +1,8 @@
 # telemetry-events-module-tests
 
-_Stability: 1 - [Experimental](https://github.com/tristanls/stability-index#stability-1---experimental)_
+_Stability: 0 - [Deprecated](https://github.com/tristanls/stability-index#stability-0---deprecated)_
+
+**This module has been deprecated in favor of [module-telemetry-policy](https://github.com/tristanls/module-telemetry-policy).**
 
 [![NPM version](https://badge.fury.io/js/telemetry-events-module-tests.png)](http://npmjs.org/package/telemetry-events-module-tests)
 
